@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>BrowseAvailablePets</title>
+    <style> 
+        #header{
+          position:relative;
+          width: 100%;
+          height: 120px;
+          background-color: antiquewhite;
+        }
+        #header2{
+            float:left;
+            border: solid;
+            text-align: center;
+            margin-left: 400px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 1cm;
+            width: 500px;
+            background: #7294e3;
+            color: white;
+            font-size: 25px;
+            
+            
+        }
+        #head{
+            
+            width:60px;
+            height:60px;
+            margin-top:20px;
+            
+        }
+        #pet1{
+            position:absolute;
+            border:solid;
+            border-width: 2px;
+            border-color: aquamarine;
+            text-align: center;
+            width:600px;
+            height:250px;
+            background-color: #2da47e;
+            color:aliceblue;
+            font-size:30px;
+            margin-left: 350px;
+            margin-top: 50px;
+            border-radius: 25px;
+            padding-right: 300px;
+
+        }
+        #pet2{
+            position:absolute;
+            border:solid;
+            border-width: 2px;
+            border-color: aquamarine;
+            text-align: center;
+            width:600px;
+            height:250px;
+            background-color: #496db0;
+            color:aliceblue;
+            font-size:30px;
+            margin-left: 350px;
+            margin-top: 400px;
+            border-radius: 25px;
+            padding-right: 300px;
+
+        }
+        #pet3{
+            position:absolute;
+            border:solid;
+            border-width: 2px;
+            border-color: aquamarine;
+            text-align: center;
+            width:600px;
+            height:250px;
+            background-color: #bb7740;
+            color:aliceblue;
+            font-size:30px;
+            margin-left: 350px;
+            margin-top: 750px;
+            border-radius: 25px;
+            padding-right: 300px;
+
+        }
+        #pet4{
+            position:absolute;
+            border:solid;
+            border-width: 2px;
+            border-color: aquamarine;
+            text-align: center;
+            width:600px;
+            height:250px;
+            background-color: #f1604d;
+            color:aliceblue;
+            font-size:30px;
+            margin-left: 350px;
+            margin-top: 1100px;
+            border-radius: 25px;
+            padding-right: 300px;
+
+        }
+
+        #cat1{
+            position: absolute;;
+            width: 200px;
+            margin-top: 120px;
+            margin-left:1000px;
+            border-radius: 25px;
+
+        }
+        #cat2{
+            position: absolute;;
+            width: 200px;
+            margin-top: 450px;
+            margin-left:1000px;
+            border-radius: 25px;
+
+        }
+
+        #dog1{
+            position: absolute;;
+            width: 200px;
+            margin-top: 775px;
+            margin-left:1000px;
+            border-radius: 25px;
+
+        }
+
+        #dog2{
+            position: absolute;;
+            width: 200px;
+            margin-top: 1155px;
+            margin-left:1000px;
+            border-radius: 25px;
+
+        }
+     
+        
+       ul {
+            z-index: 2;
+            position:absolute;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: gainsboro;
+        }
+
+        li a.a2 {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        } 
+
+          /* Change the link color on hover */
+        li a.a2:hover {
+            background-color: gray;
+            color: white;
+        }
+        li #a1:link{
+            background-color:lightgreen;
+        }
+        li #a1:hover{ /*White text*/
+            color: white;
+  
+        }
+        li #a1{
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        #body{
+          z-index: 1;
+          position:absolute;
+          width:200px;
+          height:1440px;
+          background-color:rgb(178, 242, 163);
+          opacity: 70%;
+
+        }
+
+        #footer{
+          position:absolute;
+          width: 100%;
+          height:100px;
+          border:solid;
+          background-color:  antiquewhite;
+          margin-top:1440px;
+          padding:10px 50px;
+          text-align: center;
+        }
+        #time{
+          position:absolute;
+          border-radius: 2px;
+          border-right: #b4862a;
+          border-right-width: thick;
+          background-color: rgb(238, 220, 183);
+          margin-left:1200px;
+          width: 150px;
+          height: 40px;
+          text-align: center;
+          padding-top: 15px;
+          
+        }
+
+        
+    </style>
+</head>
+<body>
+   
+   <div id = "header">
+   <h3 id = "header2">This Browse Available Pets Page</h3>
+    <a href = "HomePage.html" ><img id = "head" src = "download.jpeg" alt = ""></a>
+    <div id = "time"></div>
+   </div>
+
+        <div>
+            <ul> 
+            <li><a id ="a1" href="HomePage.html">Home</a></li>
+            <li><a class = "a2" href="BrowseAvailablePets.html">Browse Availables Pets</a></li>
+            <li><a class = "a2" href="FindADogOrCat.html">Find a dog/cat</a></li>
+            <li><a class = "a2" href="DogCare.html">Dog Care</a></li>
+            <li><a class = "a2" href = "CatCare.html">Cat Care</a></li>
+            <li><a class = "a2" href = "HaveAPetAfter.html">Have a pet to give away</a></li>
+            <li><a class = "a2" href = "ContactUs.html">Contacts Us</a></li>
+             </ul>
+        </div>
+         
+    <div id = "pet1">
+      <h4>Maurice</h4>
+      <p>This cat is a very friendly cat that loves eating and well spleeping. She is lovely and looking for new friends!</p>
+      <button type = "button" style = "margin-left: 700px;">Interested</button>
+    </div>
+
+    <div id = "pet2">
+        <h4>Albert</h4>
+        <p>This cat is a 4 years old cat who is looking for a new home. Albert is very funny and loves to eat Wiskas</p>
+        <button type = "button" style = "margin-left: 700px;">Interested</button>
+      </div>
+
+    <div id = "pet3">
+        <h4>Ben</h4>
+        <p>Ben is a little puppy who is just 2 months. He loves playing with the ball and becomes really happy when he brings the ball back</p>
+        <button type = "button" style = "margin-left: 700px;">Interested</button>
+    </div>
+
+    <div id = "pet4">
+        <h4>Tom</h4>
+        <p>Tom is a dog who is always smiling when he is walking out. Very kind and always there to support people</p>
+        <button type = "button" style = "margin-left: 700px;">Interested</button>
+    </div>
+
+    
+    <div id = "body">
+        
+    </div>
+
+    <div id = "footer">
+        <p id = "p2">Click here to see Privacy/Disclaimer Statement</p>
+        <a href = "Privacy.html">Privacy/Disclaimer Statement</a>
+       
+    </div>
+    <img id = "cat1" src = "cat1.jpeg">
+    <img id = "cat2" src = "cat2.jpeg">
+    <img id = "dog1" src = "Dog1.jpeg">
+    <img id = "dog2" src = "Dog2.jpeg">
+    
+    <script src = "Exercise7JS.js">
+        setTime();
+    </script>
+   
+   
+    
+</body>
+</html>

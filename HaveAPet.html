@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Have a pet to give away</title>
+    <style>
+         #header{
+          position:relative;
+          width: 100%;
+          height: 120px;
+          background-color: antiquewhite;
+        }
+
+         #header4{
+            float:left;
+            border: solid;
+            text-align: center;
+            margin-left: 400px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 1cm;
+            width: 500px;
+            background: #dc7064;
+            color: white;
+            font-size: 25px;
+            
+            
+        }
+        img{
+            
+            width:60px;
+            height:60px;
+            margin-top:20px;
+        }
+
+         ul {
+            z-index: 2;
+            position:absolute;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: gainsboro;
+        }
+
+        li a.a2 {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        } 
+
+          /* Change the link color on hover */
+        li a.a2:hover {
+            background-color: gray;
+            color: white;
+        }
+        li #a1:link{
+            background-color:lightgreen;
+        }
+        li #a1:hover{ /*White text*/
+            color: white;
+  
+        }
+        li #a1{
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        .loginbox{
+            width:320px;
+            height:280px;
+            background: #f19a9a;
+            color:#fff;
+            top:35%;
+            left:35%;
+            position:absolute;
+            transform: translate(-35%,-35%);
+            box-sizing: border-box;
+        }
+        h1{
+            margin:0;
+            padding:0 0 20px;
+            text-align: center;
+            font-size: 22px;
+        }
+        .loginbox label{
+            margin:0;
+            padding:0;
+            font-weight:bold;
+        }
+        .loginbox input{
+            width:100%;
+            margin-bottom:20px;
+        }
+        .loginbox input[type = "text"], input[type = "password"]{
+            border:none;
+            border-bottom:1px solid #fff;
+            height:40px;
+            font-size:14px;
+        }
+        .loginbox a {
+            height:40px;
+            background: #cf3928;
+            font-size:15px;
+            border:solid;
+            border-color: #cf3928;
+            border-radius: 4px;
+        }
+        .loginbox a:hover{
+            cursor:pointer;
+            background: #b69a1a;
+        }
+        #body{
+          z-index: 1;
+          position: absolute;
+          width:200px;
+          height:840px;
+          background-color:rgb(178, 242, 163);
+          opacity: 70%;
+
+        }
+        
+        #footer{
+          position:absolute;
+          width: 100%;
+          height:100px;
+          border:solid;
+          background-color:  antiquewhite;
+          margin-top:840px;
+          padding:10px 50px;
+          text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id = "header">
+    <h3 id = "header4">This Find a Dog or Cat Page</h3>
+    <a href = "HomePage.html" ><img src = "download.jpeg" alt = ""></a>
+    </div>
+
+        
+            <ul> 
+            <li><a id ="a1" href="HomePage.html">Home</a></li>
+            <li><a class = "a2" href="BrowseAvailablePets.html">Browse Availables Pets</a></li>
+            <li><a class = "a2" href="FindADogOrCat.html">Find a dog/cat</a></li>
+            <li><a class = "a2" href="DogCare.html">Dog Care</a></li>
+            <li><a class = "a2" href = "CatCare.html">Cat Care</a></li>
+            <li><a class = "a2" href = "HaveAPet.html">Have a pet to give away</a></li>
+            <li><a class = "a2" href = "ContactUs.html">Contacts Us</a></li>
+
+             </ul>
+    <!--Enters whatever information-->
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <div class = "loginbox">
+        <h1>Login Here</h1>
+        <form>
+            <label>Username</label>
+            <input type = "text" name = "Username" placeholder="Enter Username">
+            <label>Password</label>
+            <input type = "password" name = "Password" placeholder = "Enter Password">
+            <a href = "HaveAPetAfter.html">Login</a>
+
+           
+
+        </form>
+    </div>
+
+    <div id = "body">
+
+    </div>
+    <div id = "footer">
+        <p id = "p1">Click here to see Privacy/Disclaimer Statement</p>
+        <a href = "Privacy.html">Privacy/Disclaimer Statement</a>
+    </div>
+    
+</body>
+</html>

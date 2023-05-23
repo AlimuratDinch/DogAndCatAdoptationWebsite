@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Cat Care</title>
+    <style>
+        #header{
+          position:relative;
+          width: 100%;
+          height: 120px;
+          background-color: antiquewhite;
+        }
+        #header3{
+            float:left;
+            border: solid;
+            text-align: center;
+            margin-left: 400px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 1cm;
+            width: 500px;
+            background: #0b6e90;
+            color: white;
+            font-size: 25px;
+            
+            
+        }
+        #img1{
+            
+            width:60px;
+            height:60px;
+            margin-top:20px;
+        }
+        #care{
+            margin-left:300px;
+            margin-top:20px;
+            position: absolute;
+            width:600px;
+            height: 225px;
+            border:solid;
+            border-color:rgb(38, 12, 75);
+            border-radius:8px;
+            background-color: rgb(2, 140, 159);
+        }
+        #p1{
+            text-align: center;
+            font-style: italic;
+            font-size: larger;
+            color:#cda00e;
+        }
+        .catcare{
+            color:whitesmoke;
+        }
+        .img2{
+            position: absolute;
+            width:350px;
+            height:250px;
+            margin-top:20px;
+            margin-left:950px;
+            
+        }
+        #div2{
+            position:absolute;
+            width:400px;
+            height: 100px;
+            border:solid;
+            border-radius: 5px;
+            border-color:#10774c;
+            margin-left: 400px;
+            background-color:rgb(125, 218, 228);
+            margin-top:280px;
+        }
+        #p2{
+            font-size: 20px;
+            color:whitesmoke;
+        }
+        #body{
+          z-index: 1;
+          position:absolute;
+          width:200px;
+          height:540px;
+          background-color:rgb(178, 242, 163);
+          opacity: 70%;
+
+        }
+        #footer{
+          position:absolute;
+          width: 100%;
+          height:100px;
+          border:solid;
+          background-color:  antiquewhite;
+          margin-top:540px;
+          padding:10px 50px;
+          text-align: center;
+        }
+
+        ul {
+            z-index: 2;
+            position:absolute;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: gainsboro;
+        }
+
+        li a.a2 {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        } 
+
+          /* Change the link color on hover */
+        li a.a2:hover {
+            background-color: gray;
+            color: white;
+        }
+        li #a1:link{
+            background-color:lightgreen;
+        }
+        li #a1:hover{ /*White text*/
+            color: white;
+  
+        }
+        li #a1{
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        #time{
+          position:absolute;
+          border-radius: 2px;
+          border-right: #b4862a;
+          border-right-width: thick;
+          background-color: rgb(238, 220, 183);
+          margin-left:1200px;
+          width: 150px;
+          height: 40px;
+          text-align: center;
+          padding-top: 15px;
+          
+        }
+    </style>
+</head>
+<body>
+    <div id = "header">
+    <h3 id = "header3">This Cat Care Page</h3>
+    <a href = "HomePage.html" ><img id = "img1" src = "download.jpeg" alt = ""></a>
+    <div id = "time"></div>
+    </div>
+
+        
+            <ul> 
+            <li><a id ="a1" href="HomePage.html">Home</a></li>
+            <li><a class = "a2" href="BrowseAvailablePets.html">Browse Availables Pets</a></li>
+            <li><a class = "a2" href="FindADogOrCat.html">Find a dog/cat</a></li>
+            <li><a class = "a2" href="DogCare.html">Dog Care</a></li>
+            <li><a class = "a2" href = "CatCare.html">Cat Care</a></li>
+            <li><a class = "a2" href = "HaveAPetAfter.html">Have a pet to give away</a></li>
+            <li><a class = "a2" href = "ContactUs.html">Contacts Us</a></li>
+
+             </ul>
+    
+    <div id = "care">
+        <p id = "p1">Cat Care tips</p>
+        <ol>
+            <li class = "catcare">Groom your cat regularly</li>
+            <li class = "catcare">Provide fresh water 24/7</li>
+            <li class = "catcare">Make sure your cat always has a place to potty</li>
+            <li class = "catcare">Keep the litter box clean</li>
+            <li class = "catcare">Train your cat to use a scratching post</li>
+            <li class = "catcare">Use a cat carrier in the car</li>
+            <li class = "catcare">Have an emergency plan in place</li>
+
+        </ol>
+
+        
+    </div>
+    <img class = "img2" src = "catimg.jpeg" alt = "" > 
+    <div id = div2>
+        <p id = "p2">The information is taken from</p> 
+        <a href = "https://www.petsafe.net/learn/cats-101-basic-health-care-tips-to-keep-your-cat-healthy">petsafe.net</a>
+    </div>
+    <div id = "body">
+
+    </div>
+
+    <div id = "footer">
+        <p id = "p3">Click here to see Privacy/Disclaimer Statement</p>
+        <a href = "Privacy.html">Privacy/Disclaimer Statement</a>
+    </div>
+
+    <script src = "Exercise7JS.js">
+        setTime();
+    </script>
+</body>
+</html>

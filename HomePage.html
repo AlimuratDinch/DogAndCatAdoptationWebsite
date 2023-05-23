@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Home Page</title>
+    <style>
+        
+        #header1{
+            float:left;
+            border: solid;
+            text-align: center;
+            margin-left: 450px;
+            padding-top: 15px;
+            border-radius: 25px;
+            width: 400px;
+            height: 50px;
+            align-self: center;
+            background: #1abc9c;
+            color: white;
+            font-size: 25px;
+            
+        }
+        img{
+          
+          width: 70px;
+          height: 70px;
+          margin-top:20px;
+          position: absolute;
+          
+        }
+        ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: gainsboro;
+  z-index: 2;
+}
+
+li a.a2 {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a.a2:hover {
+  background-color: gray;
+  color: white;
+}
+li #a1:link{
+  background-color:lightgreen;
+}
+li #a1:hover{ /*White text*/
+  color: white;
+  
+}
+li #a1{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+        #header{
+          position:relative;
+          width: 100%;
+          height: 120px;
+          background-color: antiquewhite;
+        }
+        #div1{
+            float:left;
+            border:solid;
+            background-color: #7294e3;
+            padding:5px 10px 5px;
+            width: 500px;
+            height: 200px;
+            margin-top: 10px;
+            margin-left: 250px;
+            text-align: center;
+            border-radius: 15px 50px 30px 5px;
+            
+        }
+        #div2{
+            float:left;
+            border:solid;
+            background-color: #ecc069;
+            padding:5px 10px 5px;
+            width: 500px;
+            height: 200px;
+            margin-top: 10px;
+            margin-left: 50px;
+            text-align: center;
+            border-radius: 15px 50px 30px 5px;
+        } 
+        #div3{
+            float:left;
+            border:solid;
+            background-color: #63952d;
+            padding:5px 10px 5px;
+            width: 500px;
+            height: 200px;
+            margin-top: 40px;
+            margin-left: 250px;
+            text-align: center;
+            border-radius: 15px 50px 30px 5px;
+        }
+        #div4{
+           
+            position:absolute;
+            border:solid;
+            background-color: #0b6e90;
+            padding:5px 10px 5px;
+            width: 500px;
+            height: 200px;
+            margin-top: 290px;
+            margin-left: 822px;
+            text-align: center;
+            border-radius: 15px 50px 30px 5px;
+        }
+        #div5{
+           position:absolute;
+           
+           border:solid;
+           background-color: #dc7064;
+           padding:5px 10px 5px;
+           width: 500px;
+           height: 200px;
+           margin-top: 540px;
+           margin-left: 250px;
+           text-align: center;
+           border-radius: 15px 50px 30px 5px;
+       }
+       #div6{
+           position: absolute;
+           
+           border:solid;
+           background-color: #196e45;
+           padding:5px 10px 5px;
+           width: 500px;
+           height: 200px;
+           margin-top: 545px;
+           margin-left: 822px;
+           text-align: center;
+           border-radius: 15px 50px 30px 5px;
+       }
+
+        h1{
+          font-size: 20px;
+          color:rgb(31, 54, 110);
+        }
+        .paragraph{
+          border:solid;
+          border-color: rgb(110, 120, 120);
+          border-width: 4px;
+          border-radius: 15px;
+          padding:20px 50px;
+          background-color: rgb(246, 241, 241);
+          margin:0 30px;
+        }
+        #body{
+          z-index: 1;
+          position:absolute;
+          width:200px;
+          height:840px;
+          background-color:rgb(178, 242, 163);
+          opacity: 70%;
+
+        }
+        #footer{
+          position:absolute;
+          width: 100%;
+          height:100px;
+          border:solid;
+          background-color:  antiquewhite;
+          margin-top:840px;
+          padding:10px 50px;
+          text-align: center;
+        }
+        #image{
+          position:absolute;
+          border:solid;
+          border-width: 2px;
+          border-radius: 5px;
+          background-color: aliceblue;
+          width:150px;
+          height: 100px;
+          margin-top:290px;
+          z-index:2;
+        }
+        #time{
+          position:absolute;
+          
+          border-radius: 2px;
+          border-right: #b4862a;
+          border-right-width: thick;
+          background-color: rgb(238, 220, 183);
+          margin-left:1200px;
+          width: 150px;
+          height: 40px;
+          text-align: center;
+          padding-top: 15px;
+          margin-top: 30px;
+        }
+
+        
+       
+
+    </style>
+</head>
+<body> <!--side menu-->
+   
+    <div id = header>
+      <h3 id = "header1">Wecome to Animal Website</h3>
+      <a href = "HomePage.html" ><img src = "download.jpeg" alt = ""></a>
+      <div id = "time"></div>
+    </div>
+    <ul> 
+      <li><a id ="a1" href="HomePage.html">Home</a></li>
+      <li><a class = "a2" href="BrowseAvailablePets.html">Browse Availables Pets</a></li>
+      <li><a class = "a2" href="FindADogOrCat.html">Find a dog/cat</a></li>
+      <li><a class = "a2" href="DogCare.html">Dog Care</a></li>
+      <li><a class = "a2" href = "CatCare.html">Cat Care</a></li>
+      <li><a class = "a2" href = "HaveAPetAfter.html">Have a pet to give away</a></li>
+      <li><a class = "a2" href = "ContactUs.html">Contact Us</a></li>
+    </ul>
+    <div id = "div1">
+       <h1>Browse Available Pets</h1> 
+       <div class = "paragraph">
+       <p>In this page, you will be able to see available pets that we have for a moment</p>
+      </div>
+
+    </div>
+    <div id = "div2">
+        <h1>Find a dog/cat</h1>
+        <div class = "paragraph">
+        <p>In this page, you will be able to complete a from for which cat or dog you are looking for</p>
+      </div>
+    </div>
+
+    <div id = "div3">
+      <h1>Dog Care</h1>
+      <div class = "paragraph">
+      <p>In this page, you will be able to find 7 tips about caring of your dog</p>
+    </div>
+  </div>
+  <div id = "div4">
+    <h1>Cat Care</h1>
+    <div class = "paragraph">
+    <p>In this page, you will be able to find 7 tips about caring of your cat</p>
+  </div>
+</div>
+
+<div id = "div5">
+  <h1> Have a pet to give away</h1>
+  <div class = "paragraph">
+  <p>In this page, you will be able to log in with your account and chose your favorite dog or cat</p>
+</div>
+</div>
+
+<div id = "div6">
+  <h1> Contact Us</h1>
+  <div class = "paragraph">
+  <p>In this page, you will be able to see our information and contact us in any case</p>
+</div>
+</div>
+<div id = "body">
+
+</div>
+
+<div id = "footer">
+  <p id = "p1">Click here to see Privacy/Disclaimer Statement</p><br/>
+  <a href = "Privacy.html">Privacy/Disclaimer Statement</a>
+</div>
+
+<div id = "image">
+  <p>The cat and dog logo was borrowed from</p>
+  <a href = "https://www.istockphoto.com/illustrations/dog-and-cat-logo">istockphoto.com</a>
+</div>
+
+
+<script src = "Exercise7JS.js">
+setTime();</script>
+   
+    
+</body>
+</html>
